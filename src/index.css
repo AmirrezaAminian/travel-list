@@ -82,6 +82,8 @@ input {
   align-items: center;
 }
 
+ 
+
 .actions button,
 .list select {
   text-transform: uppercase;
@@ -89,7 +91,18 @@ input {
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0 0.8rem;
+   
 }
+
+
+.actions select option{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  border-radius: 20px;
+   
+}
+
+
 
 .list ul {
   list-style: none;
